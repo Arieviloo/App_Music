@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		41A2078B29E86F10006133D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078A29E86F10006133D4 /* AppDelegate.swift */; };
 		41A2078D29E86F10006133D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078C29E86F10006133D4 /* SceneDelegate.swift */; };
-		41A2078F29E86F10006133D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078E29E86F10006133D4 /* ViewController.swift */; };
-		41A2079429E86F10006133D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A2079329E86F10006133D4 /* Assets.xcassets */; };
+		41A2078F29E86F10006133D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078E29E86F10006133D4 /* HomeViewController.swift */; };
 		41A2079729E86F10006133D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A2079529E86F10006133D4 /* LaunchScreen.storyboard */; };
+		41A207A029E8724C006133D4 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2079F29E8724C006133D4 /* NSAttributedString + Extension.swift */; };
+		41A207A229E87274006133D4 /* NSTextAttachment + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A207A129E87274006133D4 /* NSTextAttachment + Extension.swift */; };
+		41A207A429E872AD006133D4 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A207A329E872AD006133D4 /* UIView + Extension.swift */; };
+		41A207A729E872DD006133D4 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A207A629E872DD006133D4 /* CardViewModel.swift */; };
+		41A207A929E87350006133D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A207A829E87350006133D4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41A2078729E86F10006133D4 /* AppMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A2078A29E86F10006133D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A2078C29E86F10006133D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41A2078E29E86F10006133D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41A2079329E86F10006133D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A2078E29E86F10006133D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		41A2079629E86F10006133D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A2079829E86F10006133D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2079F29E8724C006133D4 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
+		41A207A129E87274006133D4 /* NSTextAttachment + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextAttachment + Extension.swift"; sourceTree = "<group>"; };
+		41A207A329E872AD006133D4 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		41A207A629E872DD006133D4 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		41A207A829E87350006133D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,34 @@
 		41A2078929E86F10006133D4 /* AppMusic */ = {
 			isa = PBXGroup;
 			children = (
+				41A207A529E872CC006133D4 /* Model */,
+				41A2079E29E8720E006133D4 /* Extension */,
 				41A2078A29E86F10006133D4 /* AppDelegate.swift */,
 				41A2078C29E86F10006133D4 /* SceneDelegate.swift */,
-				41A2078E29E86F10006133D4 /* ViewController.swift */,
-				41A2079329E86F10006133D4 /* Assets.xcassets */,
+				41A2078E29E86F10006133D4 /* HomeViewController.swift */,
+				41A207A829E87350006133D4 /* Assets.xcassets */,
 				41A2079529E86F10006133D4 /* LaunchScreen.storyboard */,
 				41A2079829E86F10006133D4 /* Info.plist */,
 			);
 			path = AppMusic;
+			sourceTree = "<group>";
+		};
+		41A2079E29E8720E006133D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41A2079F29E8724C006133D4 /* NSAttributedString + Extension.swift */,
+				41A207A129E87274006133D4 /* NSTextAttachment + Extension.swift */,
+				41A207A329E872AD006133D4 /* UIView + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		41A207A529E872CC006133D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41A207A629E872DD006133D4 /* CardViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A2079729E86F10006133D4 /* LaunchScreen.storyboard in Resources */,
-				41A2079429E86F10006133D4 /* Assets.xcassets in Resources */,
+				41A207A929E87350006133D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A2078F29E86F10006133D4 /* ViewController.swift in Sources */,
+				41A2078F29E86F10006133D4 /* HomeViewController.swift in Sources */,
+				41A207A229E87274006133D4 /* NSTextAttachment + Extension.swift in Sources */,
+				41A207A429E872AD006133D4 /* UIView + Extension.swift in Sources */,
 				41A2078B29E86F10006133D4 /* AppDelegate.swift in Sources */,
 				41A2078D29E86F10006133D4 /* SceneDelegate.swift in Sources */,
+				41A207A029E8724C006133D4 /* NSAttributedString + Extension.swift in Sources */,
+				41A207A729E872DD006133D4 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
