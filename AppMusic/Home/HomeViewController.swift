@@ -13,12 +13,12 @@ class HomeViewController: UIViewController {
     
     override func loadView() {
         self.screen = HomeViewScreen()
+        self.screen?.configTableViewProtocols(delegate: self, datasource: self)
         self.view = self.screen
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.screen?.configTableViewProtocols(delegate: self, datasource: self)
     }
 }
 

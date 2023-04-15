@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41142FDC29EADB9C0009E0B2 /* CardViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41142FDB29EADB9C0009E0B2 /* CardViewTableViewCell.swift */; };
 		41A2078B29E86F10006133D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078A29E86F10006133D4 /* AppDelegate.swift */; };
 		41A2078D29E86F10006133D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078C29E86F10006133D4 /* SceneDelegate.swift */; };
 		41A2078F29E86F10006133D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078E29E86F10006133D4 /* HomeViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41142FDB29EADB9C0009E0B2 /* CardViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewTableViewCell.swift; sourceTree = "<group>"; };
 		41A2078729E86F10006133D4 /* AppMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A2078A29E86F10006133D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A2078C29E86F10006133D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41142FDA29EADB6C0009E0B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				41142FDB29EADB9C0009E0B2 /* CardViewTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		41A2077E29E86F10006133D4 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 				41A207A529E872CC006133D4 /* Model */,
 				41A2079E29E8720E006133D4 /* Extension */,
 				41A207AB29E875FA006133D4 /* Home */,
+				41142FDA29EADB6C0009E0B2 /* Cell */,
 				41A2078A29E86F10006133D4 /* AppDelegate.swift */,
 				41A2078C29E86F10006133D4 /* SceneDelegate.swift */,
 				41A207A829E87350006133D4 /* Assets.xcassets */,
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41142FDC29EADB9C0009E0B2 /* CardViewTableViewCell.swift in Sources */,
 				41A2078F29E86F10006133D4 /* HomeViewController.swift in Sources */,
 				41A207A229E87274006133D4 /* NSTextAttachment + Extension.swift in Sources */,
 				41A207A429E872AD006133D4 /* UIView + Extension.swift in Sources */,
