@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		41142FDC29EADB9C0009E0B2 /* CardViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41142FDB29EADB9C0009E0B2 /* CardViewTableViewCell.swift */; };
+		41142FDF29EAE6F50009E0B2 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41142FDE29EAE6F50009E0B2 /* CustomCardView.swift */; };
 		41A2078B29E86F10006133D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078A29E86F10006133D4 /* AppDelegate.swift */; };
 		41A2078D29E86F10006133D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078C29E86F10006133D4 /* SceneDelegate.swift */; };
 		41A2078F29E86F10006133D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2078E29E86F10006133D4 /* HomeViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		41142FDB29EADB9C0009E0B2 /* CardViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewTableViewCell.swift; sourceTree = "<group>"; };
+		41142FDE29EAE6F50009E0B2 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
 		41A2078729E86F10006133D4 /* AppMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A2078A29E86F10006133D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A2078C29E86F10006133D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		41142FDD29EAE6AB0009E0B2 /* CustomVIew */ = {
+			isa = PBXGroup;
+			children = (
+				41142FDE29EAE6F50009E0B2 /* CustomCardView.swift */,
+			);
+			path = CustomVIew;
+			sourceTree = "<group>";
+		};
 		41A2077E29E86F10006133D4 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		41A2078929E86F10006133D4 /* AppMusic */ = {
 			isa = PBXGroup;
 			children = (
+				41142FDD29EAE6AB0009E0B2 /* CustomVIew */,
 				41A207A529E872CC006133D4 /* Model */,
 				41A2079E29E8720E006133D4 /* Extension */,
 				41A207AB29E875FA006133D4 /* Home */,
@@ -191,6 +202,7 @@
 				41A207AD29E87639006133D4 /* HomeViewScreen.swift in Sources */,
 				41A2078B29E86F10006133D4 /* AppDelegate.swift in Sources */,
 				41A2078D29E86F10006133D4 /* SceneDelegate.swift in Sources */,
+				41142FDF29EAE6F50009E0B2 /* CustomCardView.swift in Sources */,
 				41A207A029E8724C006133D4 /* NSAttributedString + Extension.swift in Sources */,
 				41A207A729E872DD006133D4 /* CardViewModel.swift in Sources */,
 			);
